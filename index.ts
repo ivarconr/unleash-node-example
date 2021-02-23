@@ -1,6 +1,6 @@
-import { initialize, isEnabled } from 'unleash-client';
+import { initialize, isEnabled, Unleash } from 'unleash-client';
 
-const client = initialize({
+const client: Unleash = initialize({
     appName: 'my-application',
     url: 'http://unleash.herokuapp.com/api/',
   });
